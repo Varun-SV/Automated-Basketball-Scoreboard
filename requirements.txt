@@ -28,6 +28,7 @@ ninja-base
 numpy
 numpy-base
 olefile
+mmpose
 #opencv-python
 openjpeg
 openssl

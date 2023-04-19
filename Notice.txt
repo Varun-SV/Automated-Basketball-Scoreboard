@@ -8,4 +8,9 @@ in this case for the AI_basketball_games_video_editor project.
    Tianxiaomo pytorch-YOLOv4 
    (https://github.com/Tianxiaomo/pytorch-YOLOv4)
    Copyright (c) 2020. All rights reserved.
+
+   This produc includes software developed by OwlTing
+   AI_basketball_games_video_editor
+   (https://github.com/OwlTing/AI_basketball_games_video_editor)
+   Copyright (c) 2023. All rights reserved.
    
