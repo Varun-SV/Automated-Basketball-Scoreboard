@@ -254,12 +254,12 @@ class VideoEditor(object):
             
         except Exception as e:
 
-                error_class = e.__class__.__name__ #取得錯誤類型
-                detail = e.args[0] #取得詳細內容
-                cl, exc, tb = sys.exc_info() #取得Call Stack
-                lastCallStack = traceback.extract_tb(tb)[-1] #取得Call Stack的最後一筆資料
-                line_num = lastCallStack[1] #取得發生的行號
-                func_name = lastCallStack[2] #取得發生的函數名稱
+                error_class = e.__class__.__name__ 
+                detail = e.args[0] 
+                cl, exc, tb = sys.exc_info() 
+                lastCallStack = traceback.extract_tb(tb)[-1] 
+                line_num = lastCallStack[1] 
+                func_name = lastCallStack[2] 
                 error_infor = "line {}, in {}: [{}] {}".format(line_num, func_name, error_class, detail)
                 print(error_infor)
 
